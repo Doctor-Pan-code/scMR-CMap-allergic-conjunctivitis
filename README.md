@@ -134,11 +134,11 @@ All inputs are public: FinnGen release 13 (allergic conjunctivitis endpoint `fin
 
 ## Citation
 
-If this code contributes to your work, please cite the manuscript and the archived release:
+If this code contributes to your work, please cite the archived release. The concept DOI always resolves to the most recent version:
 
-> Pan Z. *scMR-CMap-allergic-conjunctivitis: reproducible code and result tables for a causal-target and reversal-compound screen in allergic conjunctivitis* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23890290
+> Pan Z. *scMR-CMap-allergic-conjunctivitis: reproducible code and result tables for a causal-target and reversal-compound screen in allergic conjunctivitis*. Zenodo. https://doi.org/10.5281/zenodo.23890289
 
-The concept DOI `10.5281/zenodo.23890289` always resolves to the latest version. Machine-readable metadata is in [`CITATION.cff`](CITATION.cff).
+Version-specific DOIs: `v1.0.0` → https://doi.org/10.5281/zenodo.23890290. Machine-readable metadata is in [`CITATION.cff`](CITATION.cff).
 
 ## Licence
 
