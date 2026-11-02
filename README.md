@@ -4,7 +4,7 @@ Analysis code and result tables for the manuscript
 
 > **Causal target and reversal-compound screening in allergic conjunctivitis: a single-cell-informed Mendelian randomization and connectivity-map study**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23890290.svg)](https://doi.org/10.5281/zenodo.23890290)
 [![Licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](requirements.txt)
 
@@ -32,7 +32,8 @@ Everything is plain Python 3 with a deliberately small dependency set — the st
 
 ```
 config/config.json                 all analysis thresholds, endpoints, weights, seeds
-config/opengwas_token.txt.example  template for the OpenGWAS JWT (not distributed)data/l1000_landmark_genes.txt      L1000 landmark gene list used by the CMap query
+config/opengwas_token.txt.example  template for the OpenGWAS JWT (not distributed)
+data/l1000_landmark_genes.txt      L1000 landmark gene list used by the CMap query
 data/README.md                     how to fetch the four public input files
 scripts/day1_druggable_pool.py     druggable genome universe and pharmacological tiers
 scripts/day2_mr_screen.py          cis-eQTL MR screen (Wald ratio) + confirmatory pass
@@ -54,6 +55,7 @@ manuscript_src/                    normalised manuscript text, reference JSON, S
 docs/ANALYSIS_MAP.md               method section -> script -> table -> figure cross-reference
 docs/DATA_DICTIONARY.md            column-level description of every output table
 docs/gen_data_dictionary.py        regenerates DATA_DICTIONARY.md from tables/*.csv
+CITATION.cff                       machine-readable citation metadata (DOI 10.5281/zenodo.23890290)
 ```
 
 ---
@@ -132,7 +134,11 @@ All inputs are public: FinnGen release 13 (allergic conjunctivitis endpoint `fin
 
 ## Citation
 
-If this code contributes to your work, please cite the manuscript and the archived release (DOI in the badge above, once minted).
+If this code contributes to your work, please cite the manuscript and the archived release:
+
+> Pan Z. *scMR-CMap-allergic-conjunctivitis: reproducible code and result tables for a causal-target and reversal-compound screen in allergic conjunctivitis* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23890290
+
+The concept DOI `10.5281/zenodo.23890289` always resolves to the latest version. Machine-readable metadata is in [`CITATION.cff`](CITATION.cff).
 
 ## Licence
 

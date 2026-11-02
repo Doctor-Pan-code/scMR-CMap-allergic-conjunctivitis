@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or the accompanying result tables, please cite both the archived software and the manuscript."
+type: software
+title: "scMR-CMap-allergic-conjunctivitis: reproducible code and result tables for a causal-target and reversal-compound screen in allergic conjunctivitis"
+version: 1.0.0
+date-released: 2026-11-02
+license: MIT
+doi: 10.5281/zenodo.23890290
+url: "https://github.com/Doctor-Pan-code/scMR-CMap-allergic-conjunctivitis"
+repository-code: "https://github.com/Doctor-Pan-code/scMR-CMap-allergic-conjunctivitis"
+keywords:
+  - allergic conjunctivitis
+  - Mendelian randomization
+  - colocalisation
+  - single-cell transcriptomics
+  - connectivity map
+  - drug repurposing
+authors:
+  - family-names: Pan
+    given-names: Zhongcen
+    email: zhongcenpan@qq.com
