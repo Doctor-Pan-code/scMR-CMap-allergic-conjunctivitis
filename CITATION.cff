@@ -2,10 +2,14 @@ cff-version: 1.2.0
 message: "If you use this code or the accompanying result tables, please cite both the archived software and the manuscript."
 type: software
 title: "scMR-CMap-allergic-conjunctivitis: reproducible code and result tables for a causal-target and reversal-compound screen in allergic conjunctivitis"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-11-02
 license: MIT
-doi: 10.5281/zenodo.23890290
+doi: 10.5281/zenodo.23891048
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23890289
+    description: "Concept DOI (always resolves to the latest version)"
 url: "https://github.com/Doctor-Pan-code/scMR-CMap-allergic-conjunctivitis"
 repository-code: "https://github.com/Doctor-Pan-code/scMR-CMap-allergic-conjunctivitis"
 keywords:
