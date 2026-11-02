@@ -1,0 +1,9 @@
+﻿metric,value
+n_genes,16739
+null_pearson_r,0.0101
+null_sign_agreement_pct,50.21
+null_lfc_sd_arm1,0.074
+null_lfc_sd_arm2,0.071
+null_lfc_mean_arm1,0.002773
+null_lfc_mean_arm2,0.004416
+clusters_usable,5

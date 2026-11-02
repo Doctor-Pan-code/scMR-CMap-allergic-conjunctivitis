@@ -1,0 +1,10 @@
+﻿lineage,cells_total,cells_detecting_target,detection_pct,mean_target_cpm,eligible_for_primary_split,eligible_as_replication
+myeloid,5846,935,15.99,21.51,True,True
+fibroblast,6070,727,11.98,16.09,True,True
+mast,3076,609,19.8,23.28,True,True
+melanocyte,2295,472,20.57,44.1,True,True
+unassigned,5076,435,8.57,13.41,True,True
+tnk,2082,308,14.79,19.26,True,True
+endothelial,1327,249,18.76,23.3,True,True
+bplasma,925,154,16.65,28.22,True,False
+epithelial,585,68,11.62,18.22,False,False

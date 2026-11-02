@@ -1,0 +1,12 @@
+# OpenGWAS API token
+#
+# 1. Register at https://api.opengwas.io  (free for academic use)
+# 2. Copy this file:
+#       cp config/opengwas_token.txt.example config/opengwas_token.txt
+# 3. Replace the placeholder below with your JWT, on a single line, no quotes,
+#    no trailing spaces. The token is a long string starting with "eyJ".
+#
+# config/opengwas_token.txt is excluded by .gitignore and must never be committed.
+# The pipeline reads it through scripts/lib_io.py:token().
+
+PASTE_YOUR_OPENGWAS_JWT_HERE

@@ -1,0 +1,7 @@
+﻿metric,value
+genes_screened,6329
+genes_P_lt_0.05,494
+genes_FDR_lt_0.05,3
+genes_bonferroni,2
+median_F_statistic,347.7
+outcome,finn-b-H7_ALLERGICCONJUNCTIVITIS

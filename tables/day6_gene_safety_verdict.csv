@@ -1,0 +1,15 @@
+﻿gene,ensembl_gene_id,rsid,screen_p,coloc_PP_H4,n_phenotypes_tested,n_significant,n_ocular,n_severe,top_domains,safety_verdict,verdict_reason
+PHF1,ENSG00000112511,rs59473078,4.75912e-05,0.790028,1400,1,1,0,ocular:1,safe,all significant phenotypes are on-target (ocular/atopic)
+NNT,ENSG00000112992,rs7731091,7.06679e-05,0.95488,1400,1,1,0,ocular:1,safe,all significant phenotypes are on-target (ocular/atopic)
+TXNDC12,ENSG00000117862,rs6686632,0.000137318,0.671604,1400,0,0,0,,safe,no phenotype reaches the sweep threshold
+CRK,ENSG00000167193,rs76999852,0.000322298,0.900948,1400,1,0,0,atopic_immune:1,safe,all significant phenotypes are on-target (ocular/atopic)
+PRKAB1,ENSG00000111725,rs11064881,0.000661375,0.893705,1400,0,0,0,,safe,no phenotype reaches the sweep threshold
+IGSF8,ENSG00000162729,rs12408242,0.000717359,0.560202,1400,0,0,0,,safe,no phenotype reaches the sweep threshold
+ATP7B,ENSG00000123191,rs41292790,0.000786659,0.751428,1400,0,0,0,,safe,no phenotype reaches the sweep threshold
+SFXN2,ENSG00000156398,rs2902548,0.00112831,0.700426,1400,0,0,0,,safe,no phenotype reaches the sweep threshold
+HSF2,ENSG00000025156,rs6926219,0.00127843,0.582997,1400,0,0,0,,safe,no phenotype reaches the sweep threshold
+NFE2L3,ENSG00000050344,rs916963,0.00132617,0.6839,1400,0,0,0,,safe,no phenotype reaches the sweep threshold
+TLR1,ENSG00000174125,rs189688666,5.45563e-07,0.970104,1400,12,2,0,atopic_immune:9;ocular:2;x diseases of the respiratory system (j10_):1,monitor,off-domain signals: x diseases of the respiratory system (j10_)
+TLR10,ENSG00000174123,rs11096956,1.94071e-05,0.964729,1400,14,2,0,atopic_immune:11;ocular:2;x diseases of the respiratory system (j10_):1,monitor,off-domain signals: x diseases of the respiratory system (j10_)
+HSD17B8,ENSG00000204228,rs7750298,0.00054254,0.356389,1400,11,3,0,unmapped:5;ocular:3;atopic_immune:2;diabetes endpoints:1,monitor,off-domain signals: diabetes endpoints; unmapped
+PBXIP1,ENSG00000163346,rs11065979,0.000260309,0.141288,1400,66,2,3,"unmapped:30;ix diseases of the circulatory system (i9_):10;atopic_immune:4;cardiometabolic endpoints:3;iv endocrine, nutritional and metabolic diseases (e4_):3",high_risk,"significant in severe systemic domain: Myocardial infarction; Myocardial infarction, strict; STROKE"

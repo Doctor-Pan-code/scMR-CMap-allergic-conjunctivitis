@@ -1,0 +1,10 @@
+﻿lineage,cells_in_universe,depth_strata,cells_high,cells_low,refit_r2_lineage_depth,library_size_gap_pct,note
+myeloid,935,10,465,465,0.6692,-2.47,ok
+fibroblast,727,10,360,360,0.7789,-4.94,ok
+mast,609,10,300,300,0.7801,-2.94,ok
+melanocyte,472,10,232,232,0.7441,-2.03,ok
+tnk,308,10,150,150,0.8365,-2.78,ok
+endothelial,249,8,121,121,0.7641,-5.56,ok
+bplasma,154,5,75,75,0.8469,3.01,ok
+unassigned,435,0,0,0,,,fewer than 80 detecting cells
+epithelial,68,0,0,0,,,fewer than 80 detecting cells

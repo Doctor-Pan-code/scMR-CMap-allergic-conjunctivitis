@@ -1,0 +1,5 @@
+﻿tier,n_genes,n_with_cis_eqtl,median_n_drugs,median_n_interactions
+T1_clinical_with_drug,4162,3148,4,5
+T2_clinical_target,5028,3621,0,0
+T3_literature_or_experimental,1793,1240,0,0
+ALL,10983,8009,0,0

@@ -1,0 +1,4 @@
+﻿group,n_cells,mean_total_umi,median_total_umi,median_n_genes,mean_target_cpm,pct_detected,mean_mito_pct,mean_residual,lineage_mix
+high,1703,11276.2,9208,3290,172.16,100,4.15,0.5121,myeloid 27%; fibroblast 21%; mast 18%; melanocyte 14%
+low,1703,11624.7,9272,3317,114.48,100,4.09,-0.5036,myeloid 27%; fibroblast 21%; mast 18%; melanocyte 14%
+gap_high_vs_low,3406,-3,-27,,57.68,0,0.05,1.0157,

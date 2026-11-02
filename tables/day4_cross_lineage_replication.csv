@@ -1,0 +1,7 @@
+﻿lineage,cells_high,cells_low,genes_compared,pearson_r_vs_primary,sign_agreement_pct_all_genes,signature_genes_with_data,signature_genes_concordant,signature_concordance_pct,lineage_own_signature_n,primary_recovered_pct
+myeloid,465,465,16599,0.3645,65.18,600,507,84.5,395,60.33
+fibroblast,360,360,16599,0.2974,61.69,600,478,79.67,348,50.83
+mast,300,300,16599,0.2545,60.52,600,458,76.33,337,47
+melanocyte,232,232,16599,0.2336,58.11,600,425,70.83,363,46.33
+tnk,150,150,16599,0.201,55.88,600,415,69.17,385,48.17
+endothelial,121,121,16599,0.1797,54.73,600,364,60.67,402,43

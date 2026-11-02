@@ -1,0 +1,127 @@
+{
+  "project": {
+    "name": "scMR_CMap_AllergicConjunctivitis",
+    "title": "Single-cell informed Mendelian randomization with CMap connectivity mapping for drug repurposing in allergic conjunctivitis",
+    "disease": "Allergic conjunctivitis",
+    "tissue": "bulbar conjunctiva",
+    "root": "."
+  },
+  "api": {
+    "opengwas_base": "https://api.opengwas.io/api",
+    "token_file": "config/opengwas_token.txt",
+    "ensembl_rest": "https://rest.ensembl.org",
+    "ensembl_rest_grch37": "https://grch37.rest.ensembl.org",
+    "l1000cds2": "https://maayanlab.cloud/l1000cds2/query",
+    "enrichr_addlist": "https://maayanlab.cloud/Enrichr/addList",
+    "enrichr_enrich": "https://maayanlab.cloud/Enrichr/enrich",
+    "dgidb_genes": "https://dgidb.org/data/latest/genes.tsv",
+    "dgidb_interactions": "https://dgidb.org/data/latest/interactions.tsv",
+    "request_sleep": 1.2,
+    "max_retry": 4,
+    "timeout": 300
+  },
+  "outcomes": {
+    "primary": "finn-b-H7_ALLERGICCONJUNCTIVITIS",
+    "replication": "finn-b-H7_CONJUNCTIVITIS",
+    "secondary": [
+      "finn-b-H7_CONJUNCTIVITISATOPIC",
+      "finn-b-H7_CONJUNCTIVITISCHRON",
+      "finn-b-H7_CONJUNCTIVITISACUNONATOPIC"
+    ],
+    "gwas_catalog": "ebi-a-GCST90018791"
+  },
+  "exposure": {
+    "eqtl_prefix": "eqtl-a-",
+    "eqtl_source": "eQTLGen cis-eQTL (Vosa U, n=31684, whole blood)",
+    "p_threshold": 5e-08,
+    "clump_r2": 0.001,
+    "clump_kb": 10000,
+    "f_threshold": 10
+  },
+  "mr": {
+    "min_snp": 1,
+    "fdr_alpha": 0.05,
+    "methods": [
+      "IVW_FE",
+      "IVW_RE",
+      "MR_Egger",
+      "WeightedMedian",
+      "SimpleMode",
+      "WeightedMode"
+    ],
+    "steiger": true
+  },
+  "coloc": {
+    "window_kb": 500,
+    "pp_h4_strong": 0.8,
+    "pp_h4_suggestive": 0.5
+  },
+  "smr": {
+    "p_threshold": 0.05,
+    "heidi_p_threshold": 0.05
+  },
+  "scrna": {
+    "geo_series": "GSE242382",
+    "geo_sample": "GSM7761922",
+    "tissue_label": "Conjunctiva tissue (4 pooled healthy bulbar conjunctiva biopsies)",
+    "min_genes": 200,
+    "max_mito": 20,
+    "min_genes_per_cell": 200,
+    "max_mito_pct": 20,
+    "n_hvg": 2000,
+    "n_pcs": 30,
+    "n_neighbors": 15,
+    "leiden_resolution": 0.8,
+    "grouping_mode": "lineage_restricted_cluster_depth_matched",
+    "target_gene_override": "",
+    "lineage_r2_max": 0.1,
+    "top_n_features": 300,
+    "dominant_lineage_min_score": 0.5,
+    "min_group_cells_per_lineage": 80,
+    "min_replication_cells_per_lineage": 200
+  },
+  "cmap": {
+    "db_version": "cpcd-gse70138-lm-v1.0",
+    "up_genes_n": 300,
+    "dn_genes_n": 300,
+    "top_meta_n": 50,
+    "primary_query_n": 15,
+    "size_sweep": [
+      10,
+      15,
+      25,
+      35
+    ],
+    "null_draws": 20,
+    "null_seed": 20261027,
+    "permutation_p_strong": 0.05,
+    "note": "connectivity is judged against a permutation null built at the same query size, not against an absolute score threshold: L1000CDS2 raw scores run 0.02-0.53, fall monotonically with query size, and only 22 of the 300 signature genes per arm are in the reference collection. Query size 15 is used as primary because the known-answer control (dexamethasone response) recovers glucocorticoids at rank 6 there and the signature remains distinguishable from its null"
+  },
+  "phewas": {
+    "p": 5e-05,
+    "p_threshold": 5e-05,
+    "n_genes": 14,
+    "bonferroni_alpha": 0.05,
+    "n_phenotypes_target": 1400,
+    "max_phenotypes_scan": 1400,
+    "sources": [
+      "finn",
+      "ukb",
+      "ebi",
+      "ieu"
+    ]
+  },
+  "scoring": {
+    "w_mr": 0.3,
+    "w_coloc": 0.2,
+    "w_scell": 0.2,
+    "w_cmap": 0.2,
+    "w_safety": 0.1
+  },
+  "figures": {
+    "format": "svg",
+    "dpi": 300,
+    "width_in": 8.0,
+    "height_in": 5.5
+  }
+}

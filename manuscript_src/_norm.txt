@@ -1,0 +1,242 @@
+### 0 | Normal
+过敏性结膜炎因果靶点与逆转化合物筛选
+
+### 1 | Normal
+摘要
+
+### 2 | Normal
+目的：过敏性结膜炎治疗止于下游炎症介质，尚无遗传学证据支持的靶点；眼科连接图谱缺因果层与细胞分辨率。本研究串联遗传因果、细胞状态与药理逆转。方法：以 FinnGen R13 为结局、eQTLGen cis-eQTL 为暴露，对可成药基因组行孟德尔随机化，经共定位与 SMR/HEIDI 过滤；在结膜单细胞图谱内按深度分层切分状态，取 600 基因签名投 L1000，以糖皮质激素与零分布双校准；末行安全否决与加权。结果：20 个候选进入下游：TLR1 遗传预测表达升高使风险增加 42%（OR = 1.42，P = 5.46×10^{-7}）；其在八谱系检出率仅 11.6%~20.6%，以此切分得到表达状态而非细胞类型，六谱系重现率 73.5%；签名得分高于零分布（P = 0.048），BI-2536 逆转特异性最高；14 个候选经表型检验，PBXIP1 因严重域退出；TLR1 综合分 0.7631，为唯一 Tier 1。结论：三层证据收敛于 TLR1：在结膜中本就表达、遗传上指向更高风险、状态可重复、可被化合物逆转，比仅凭差异表达更接近可检验的靶点。
+
+### 3 | Normal
+关键词
+
+### 4 | Normal
+过敏性结膜炎；孟德尔随机化；共定位；单细胞转录组；连接图谱；药物靶点
+
+### 5 | Normal
+1 引言
+
+### 6 | Normal
+过敏性结膜炎是最常见的眼表过敏性疾病，30%–71%的过敏性鼻炎患者合并结膜症状，一般人群患病率约6%–30%[1]。抗组胺药与肥大细胞稳定剂可缓解轻中度症状，重症急性加重仍依赖糖皮质激素，激素相关眼部和全身不良反应限制其长期使用[2]。现有方案均作用于下游炎症介质，缺少经人类遗传学证据支持的靶点。
+
+### 7 | Normal
+可成药基因组孟德尔随机化以遗传变异为工具变量，估计基因表达对疾病的效应，已在青光眼[3]与年龄相关性黄斑变性[4]中用于靶点排序，并在血浆蛋白组层面并列评估疗效与不良反应[5]。该设计易受连锁不平衡与水平多效性干扰，需以共定位[6]与SMR/HEIDI[7]交叉过滤。眼科同类研究止于靶点关联与安全性排序，配体证据依赖分子对接。
+
+### 8 | Normal
+连接图谱以L1000扰动谱反向匹配，回答何种化合物能把疾病相关转录状态推回正常[8]。已发表的眼底病研究以血液差异表达基因作输入[9]，无因果层与细胞分辨率。
+
+### 9 | Normal
+本研究串联三层证据：以eQTLGen全血cis-eQTL[10]与FinnGen R13端点[11]完成全池孟德尔随机化，经共定位与SMR/HEIDI过滤；将最强候选投影至人球结膜单细胞图谱[12]，在谱系内按靶基因表达高低切分细胞状态，取得跨谱系重现签名；以地塞米松阳性对照与匹配零分布校准逆转查询；最终以PheWAS一票否决并按五轴加权排序，寻找出过敏性结膜炎的因果靶点。
+
+### 10 | Normal
+2 方法
+
+### 11 | Normal
+2.1 数据来源与可成药基因组池
+
+### 12 | Normal
+结局取 FinnGen R13 过敏性结膜炎端点（finn-b-H7_ALLERGICCONJUNCTIVITIS），复制队列为同库结膜炎端点；暴露为 eQTLGen 全血 cis-eQTL（n=31 684）；单细胞数据为健康人球结膜图谱 GSE242382；注释取自 HGNC 与 DGIdb，扰动参考库为 LINCS L1000。全部为公开汇总数据，无需伦理审批。研究按因果层先于药理层组织：先由遗传工具变量确定靶点，再将其翻译为组织内转录状态，以可逆转该状态的化合物为候选，末以全表型扫描兜底安全性。将 HGNC 中 approved、蛋白编码且带 Ensembl ID 的基因与 DGIdb 交叉，按来源分临床期、文献与身份型三类，形成 T1（临床注释且有药物交互）、T2（仅临床注释）、T3（仅文献证据）三层，并以 OpenGWAS 是否收录 eqtl-a-ENSG 判定可工具化。
+
+### 13 | Normal
+2.2 cis-eQTL 孟德尔随机化
+
+### 14 | Normal
+取各基因显著 eQTL 众数位置 ±1 Mb 为 cis 窗口，以 P 值最小的 SNP 为工具变量，等位基因对齐后以 Wald ratio 估计效应，回文 SNP 在效应等位基因频率 0.35~0.65 内剔除，F 统计量衡量工具强度。P<0.05 者取全部独立 cis 工具（500 kb 位置近似剪枝），以 IVW、MR-Egger、加权中位数与众数法复核，Cochran Q 与 Egger 截距检验异质性与定向多效性，留一法排除单点驱动，并在独立结膜炎队列复制；方向判断结合 cis 工具的顺式作用先验与共定位结果。
+
+### 15 | Normal
+2.3 共定位与 SMR/HEIDI
+
+### 16 | Normal
+经 Ensembl REST（GRCh37）取候选基因 ±500 kb 内变异，等位基因对齐后抽稀至 240 个，运行 coloc.abf（p1=p2=1×10-4，p12=1×10-5），PP.H4≥0.80 判为强共定位、0.50~0.80 为提示性；SMR 估计 eQTL 与 GWAS 效应之比，HEIDI 检验该比例的同质性，两判据合并确定优先候选。
+
+### 17 | Normal
+2.4 单细胞谱系内分层与跨谱系重现
+
+### 18 | Normal
+GSE242382 以两遍流式扫描读取，分别累计每细胞质控指标、九个身份 panel 得分与靶基因计数，以及按谱系的 pseudobulk。质控要求基因数≥200、线粒体 UMI≤20%、总 UMI≥500 且为 singlet；按八个真谱系的最高 z 分数归属细胞，z<0.5 记为 unassigned。切分采用限制而非回归：仅在检出靶基因且有优势谱系的细胞内比较，谱系内按总 UMI 分 10 个深度层，层内按「log1p(靶基因 CPM) 对九身份轴与 log10 总 UMI 回归」的残差中位数切半，残差在检出细胞内重新拟合。pseudobulk 转 CPM 计算 log2FC，以泊松方差构造 t 统计量并作 BH 校正；签名要求 |log2FC|>0.25、跨簇一致率≥0.6、身份 R2<0.1、检出率≥5%。签名的成立以六个谱系内独立重现为判据。
+
+### 19 | Normal
+2.5 连接图谱逆转筛选
+
+### 20 | Normal
+签名投影至 L1000 landmark 空间，仅提交落于该集合的基因，主查询规模为每臂 15 个；每个规模抽 20 组随机基因集构造零分布，以置换 P 与 z 衡量显著性。原样提交为 reverse、两臂互换为 mimic，二者得分之差为逆转特异性；以糖皮质激素响应签名作已知答案对照。
+
+### 21 | Normal
+2.6 全表型安全性扫描与五轴合成
+
+### 22 | Normal
+以候选基因 lead cis-eQTL 扫描 FinnGen R13 端点：剔除病例数<50 者，保留命中眼域、特应性免疫域与严重域关键词者，其余补足至 1 400 个，阈值 P<5×10-5；无显著或仅眼域、特应性域显著判为安全，域外显著为需监测，命中严重域为高风险并退出候选。最后按固定权重合成综合分（MR 0.3、共定位 0.2、单细胞 0.2、CMap 0.2、安全性 0.1），0.55 以上为 Tier 1；分析以 Python 实现，阈值固化于 config/config.json。
+
+### 23 | Normal
+3 结果
+
+### 24 | Normal
+从 19,255 个蛋白编码基因出发，可工具化靶点池经孟德尔随机化、共定位与多效性排除、单细胞转录状态签名、连接图谱逆转筛选与全表型安全性五道关卡逐级收敛，最终给出 1 个 Tier 1 主候选与 6 个支持性候选。
+
+### 25 | Normal
+3.1 可成药基因组池的规模与药理构成
+
+### 26 | Normal
+HGNC 中 approved、蛋白编码且带 Ensembl ID 的基因共 19,255 个；DGIdb 声明基因 26,739 个，其中 5,011 个有实际药物交互记录；OpenGWAS 可用 cis-eQTL 数据集 19,935 个。三者交叉得到分层可成药池 10,983 个基因，按药理证据强度分为三层：有临床期注释且有药物交互的 T1 层 4,162 个、仅有临床期注释的 T2 层 5,028 个、仅有文献或实验证据的 T3 层 1,793 个。其中 8,009 个（72.9%）具备全血 cis-eQTL 汇总统计，可构造工具变量；T1 与 T2 合计占池的 83.6%，池的主体是已被药理学验证的靶点，这使下游的遗传关联可以直接读作药物靶点证据，而非泛化的生物标志物关联（图 2、图 3）。
+
+### 27 | Normal
+3.2 全池 cis-eQTL 孟德尔随机化筛查
+
+### 28 | Normal
+以每个基因 cis 窗口内 P 值最小的 SNP 作 lead 工具变量，对 6,329 个基因完成 Wald ratio 计算，工具强度中位 F = 347.7，远高于弱工具阈值。P<0.05 的基因 494 个，FDR<0.05 者 3 个，Bonferroni 校正后仍显著者 2 个。494 个基因全部以六种估计量复核，并在独立结膜炎队列中复制：IL18RAP（IVW OR = 0.92，95% CI 0.89~0.94，P = 1.38×10^{-8}）、TLR1（OR = 1.42，1.24~1.63，P = 5.46×10^{-7}）与 TLR10（OR = 1.57，1.28~1.93，P = 1.94×10^{-5}）居前，三者在复制队列中方向一致。信号散布于多条染色体而无单点主导，未见全局偏倚（图 4、图 5）。
+
+### 29 | Normal
+3.3 共定位与多效性排除
+
+### 30 | Normal
+47 个候选基因完成共定位分析：PP.H4 不低于 0.80 的强共定位基因 6 个，0.50 至 0.80 的提示性基因 11 个；SMR 显著且 HEIDI 不同质的基因 12 个。TLR1 的 PP.H4 为 0.970、PP.H3 仅 0.030，SMR P = 9.38×10^{-7}、HEIDI P = 0.092，表达与疾病信号由同一因果变异驱动，连锁不平衡与水平多效性两条假阳性通路同时被排除；区域图上 eQTL 与 GWAS 的峰落在同一批变异（图 7）。合并两条判据后，进入下游的优先候选基因共 20 个。
+
+### 31 | Normal
+3.4 球结膜单细胞图谱中的状态轴与跨谱系重现
+
+### 32 | Normal
+在健康人球结膜图谱（GSE242382，27,600 个细胞，质控后 27,282 个）中，以证据最强的 TLR1 为分层变量。TLR1 在八个谱系中的检出率为 11.6% 至 20.6%（黑色素细胞 20.6%、髓系 16.0%、上皮 11.6%），不构成任何细胞类型的标志物，按它切分得到的是表达状态对比而非细胞类型对比。在谱系内部按测序深度分层后再切分，进入对比的细胞 3,522 个，两组各 1,703 个；总 UMI 差 −3.00%，谱系构成完全一致，残差差 1.02 个标准差，两组只在靶基因表达上分开。差异分析覆盖 18,007 个基因，签名含 300 个上调与 300 个下调基因。
+
+### 33 | Normal
+把签名拿到六个谱系内部逐一重做同一对比，平均方向一致率 73.5%，中位 r = 0.244，292/600 个基因（48.7%）在至少 5/6 个谱系内同向，重现率随谱系细胞数由 84.5% 降至 60.7%。上调臂含 ITM2A（log2FC = 1.64）、PDLIM7（1.64）、SPARCL1（1.38）与 BACH2（0.74），下调臂含 SAA1（−1.15）、CD200R1（−1.15）与 CD68（−1.05），呈髓系炎症程序下调、间质修复程序上调的格局（图 9、图 10）。以随机分层变量走完全相同的流程作阴性对照，签名相关 r = +0.010、符号一致率 50.2%，切分机制本身不引入方向，73.5% 的重现率来自靶基因表达状态本身。
+
+### 34 | Normal
+3.5 连接图谱逆转筛选的统计效度
+
+### 35 | Normal
+600 个签名基因中 44 个（7.3%）落在 L1000 landmark 集合内，查询即以该子集进行，每臂 15 个基因。结膜签名的最高分为 0.2500，同规模随机 landmark 集的零分布为 0.155 ± 0.039，z = 2.47，置换 P = 0.0476；每臂 10 个基因时 z = 2.97、置换 P = 0.0476，两个规模的签名得分均高于全部 20 组随机抽样。以糖皮质激素响应签名走完全相同的流程作已知答案对照，四个查询规模下糖皮质激素均被召回（13 个成员，最佳排名 1 至 6 位），引擎的逆转语义与本流程的检出能力由此得到校准。46 个化合物中 16 个呈逆转方向，逆转特异性最高者为 BI-2536（0.0949，null z = 2.47）。Enrichr 独立参考库在扰动后上调侧与下调侧分别给出 392 条与 687 条显著条目，1,25-二羟维生素 D（P = 2.4×10^{-4}，z = 3.41）居首（图 11、图 12）。
+
+### 36 | Normal
+3.6 全表型安全性判决
+
+### 37 | Normal
+以每个候选基因的 lead cis-eQTL 扫描 FinnGen R13 的 1,400 个端点，14 个基因共 19,600 次检验，P<5×10^{-5} 的显著关联 106 个。判决为安全 10 个、需监测 3 个、高风险 1 个：7 个基因在 1,400 个端点中无任何显著关联；TLR1 的 12 个显著信号中 9 个位于特应性免疫域、2 个眼域、1 个呼吸系统域，与模式识别受体的固有免疫角色一致，判为需监测；PBXIP1 的 66 个显著关联命中 3 个严重域（心肌梗死、严格定义的心肌梗死、卒中），判为高风险并退出候选名单。域分布把在靶效应与脱靶风险分开，安全性由此成为分层判据而非单一的否决开关（图 13、图 14）。
+
+### 38 | Normal
+3.7 五轴合成与候选优先级
+
+### 39 | Normal
+按预先固定的权重（MR 0.3、共定位 0.2、单细胞 0.2、CMap 0.2、安全性 0.1）对 494 个基因合成综合分。TLR1 以 0.7631 居首，五轴得分为 MR 0.83、共定位 0.98、单细胞 0.37、CMap 0.95、安全性 0.55，是唯一的 Tier 1 主候选，较 Tier 2 首位高出 0.38，二者不属同一量级；Tier 2 支持性候选 6 个（TXNDC12 0.3788、PRKAB1 0.3780、TLR10 0.3703、PHF1 0.3696、IL18RAP 0.3667、ATP7B 0.3529），其余 487 个为 Tier 3 探索性。把逆转特异性最强的化合物与前 3 位候选交叉，得到以 BI-2536 为首的一组基因-化合物配对，构成体外验证的起点（图 15 至图 17）。
+
+### 40 | Normal
+4 讨论
+
+### 41 | Normal
+本研究把因果筛查、结膜单细胞转录状态与药理逆转串成可复算的流水线。10983个可成药基因中20个候选通过共定位与SMR/HEIDI双重过滤，TLR1以综合分0.7631成为唯一Tier 1靶点：遗传预测的表达升高使风险增加42%（OR=1.42，95%CI 1.24–1.63），共定位后验概率0.970，下游转录状态在六个结膜谱系独立重现（一致率73.5%）。靶点验证要求暴露位于因果链近端[13]，暴露被限定在cis调控的表达量上，进入药理层前已固定因果层。
+
+### 42 | Normal
+TLR1能走向可解释的靶点，是因为它在人结膜中本就有表达与功能。人结膜与角膜缘上皮细胞稳定表达TLR1、2、3、5、6，并可在配体刺激下经NF-κB分泌IL-6与IL-8[14]；结膜杯状细胞中TLR1与TLR2共同介导α毒素激活NLRP3、释放成熟IL-1β[15]；变应性角结膜炎与季节性过敏患者结膜上皮TLR2表达高于无过敏者[16]。本研究未把TLR1写成某类细胞的标志物：八个谱系检出率仅11.6%–20.6%，谱系间差异小于谱系内，故单细胞层度量的是同一受体在不同细胞状态下的表达高低，与单细胞eQTL揭示的疾病位点效应依赖细胞状态[17]相符。
+
+### 43 | Normal
+人群遗传学既提供旁证，也留下张力。TLR1功能变异携带者特应性哮喘风险降低，其TLR1 mRNA与蛋白升高、TH1反应增强、IL-4减少[18]；本研究却见遗传预测的表达升高对应风险升高。两者不必然冲突：前者度量终生变异的免疫偏移，后者度量cis调控内表达量的净效应。TLR10更值得讨论——它是已知以抑制为主的受体，与TLR2形成异二聚体后减弱IL-1β产生[19]，本研究中其表达同样指向风险升高（OR=1.57）。一种解释是效应反映TLR1/TLR10复合物平衡而非单受体：两基因同处4p14受体基因簇，也与二者几乎相同的特应性免疫域PheWAS图谱（9与11个显著端点）相称。IL18RAP的通路归属亦获旁证：IL-18受体轴已被多组学定位[20]与循环炎症蛋白的孟德尔随机化[21]提名为过敏性结膜炎通路，但本研究给出的是保护方向（OR=0.92），提示该轴各组分方向可不一致。
+
+### 44 | Normal
+签名本身指向一个可解释的细胞状态：上调臂富集ITM2A、SPARCL1、FGF1、PDPN与BACH2，下调臂富集SAA1、CD200R1、CD68、LYZ与SP140，读作髓系炎症程序下调、间质修复程序上调。BACH2抑制效应程序、稳定调节性T细胞稳态，也是Th2应答的关键节点[22,23]；SPARCL1、PDPN与FGF1的上调则指向结膜重塑——结膜纤维化是眼表致盲的重要机制[24]，过敏慢性化后的角膜与角膜缘并发症正是其临床对应[25]。本研究未测纤维化终点，此层解读属机制假说。
+
+### 45 | Normal
+药理层可信度由两道内部对照支撑。定规模为每臂15个基因前，先用同一流程查询地塞米松签名，四个规模下均召回糖皮质激素类（最佳排名1–6）；再用同规模随机基因集构建零分布，结膜签名得分高于全部20次抽样（z=2.47，P=0.0476）。糖皮质激素类在本签名上未通过（仅召回氢化可的松，排名34），这一阴性结果应如实报告：连接图谱比较的是转录组整体形状，激素在结膜以局部抗炎为主，其足迹与TLR1高低表达态不重叠。已有眼科应用以疾病表达谱作输入[26]，本研究以细胞状态签名作输入，是证据层级的差别。逆转特异性最强的BI-2536（0.0949，第二名0.0324）与过敏炎症尚无直接机制联系；交叉验证把1,25-二羟维生素D推到首位（P=2.4×10⁻⁴，z=3.41），这条线索有可衔接的生物学——季节性过敏性结膜炎患者血浆25(OH)D低于对照而总IgE更高[27]，1,25(OH)₂D₃又可在人微胶质细胞中上调TLR10并促进M2极化[28]。
+
+### 46 | Normal
+安全性一票否决是本研究的区别所在。1400个FinnGen端点的全表型扫描不停留在是否显著，而是把显著端点的疾病域分布翻译成判决：TLR1与TLR10的12与14个显著关联集中于特应性免疫、眼与呼吸三域，判为需监测；PBXIP1的66个显著关联含心肌梗死与卒中，直接退出。以PheWAS作靶点安全性的前置证据已证明可行[29,30]，而多证据优先级排序已有系统框架可循[31]。
+
+### 47 | Normal
+边界需要明确。暴露为全血cis-eQTL而靶组织是结膜，两者不等价，单细胞层是组织旁证而非替代；人角膜与角膜缘的单细胞图谱已建立[32]，结膜免疫细胞的原代扰动数据仍然缺失。连接图谱参考库以肿瘤细胞系为主，landmark只覆盖600个签名中的44个（7.3%）；置换检验P=0.0476已触及20次抽样的分辨率下限；共定位对cis区变异作了抽稀，后验概率偏保守。本文输出候选与优先级，不是疗效结论。但一个在结膜中本就表达、过敏时上调、遗传上被指向、转录后果又可被化合物逆转的固有免疫受体，已比仅凭差异表达得到的候选更接近可检验的靶点。
+
+### 48 | Normal
+参考文献
+
+### 49 | Normal
+[1] Leonardi A, Castegnaro A, Valerio AL, Lazzarini D. Epidemiology of allergic conjunctivitis: clinical appearance and treatment patterns in a population-based study. Curr Opin Allergy Clin Immunol. 2015;15(5):482-488. doi:10.1097/ACI.0000000000000204
+
+### 50 | Normal
+[2] Bielory BP, O'Brien TP, Bielory L. Management of seasonal allergic conjunctivitis: guide to therapy. Acta Ophthalmol. 2012;90(5):399-407. doi:10.1111/j.1755-3768.2011.02272.x
+
+### 51 | Normal
+[3] Ke K, Zhou Q, Zhong J. Druggable genome Mendelian randomization and GWAS-sceQTLs MR analysis reveal genetic associations between open-angle glaucoma and immune cells, and identify potential drugs. Transl Vis Sci Technol. 2025;14(10):38. doi:10.1167/tvst.14.10.38
+
+### 52 | Normal
+[4] Chen N, Liu Y, Chen Z, Xiang Y, Yu H. Integrative genomic and proteomic analyses identify candidate genetic loci and genetically supported proteins in age-related macular degeneration. Eye Vis (Lond). 2026;13(1):35. doi:10.1186/s40662-026-00502-3
+
+### 53 | Normal
+[5] Jia DD, Xiao QA, Song SY, Pan M, Hu H, Wu KL, Ran JB, Liang L. Identification of novel drug targets for primary open angle glaucoma and its potential side-effects by human plasma proteome. Int J Ophthalmol. 2025;18(8):1470-1477. doi:10.18240/ijo.2025.08.07
+
+### 54 | Normal
+[6] Giambartolomei C, Vukcevic D, Schadt EE, Franke L, Hingorani AD, Wallace C, Plagnol V. Bayesian test for colocalisation between pairs of genetic association studies using summary statistics. PLoS Genet. 2014;10(5):e1004383. doi:10.1371/journal.pgen.1004383
+
+### 55 | Normal
+[7] Zhu Z, Zhang F, Hu H, Bakshi A, Robinson MR, Powell JE, Montgomery GW, Goddard ME, Wray NR, Visscher PM, Yang J. Integration of summary data from GWAS and eQTL studies predicts complex trait gene targets. Nat Genet. 2016;48(5):481-487. doi:10.1038/ng.3538
+
+### 56 | Normal
+[8] Subramanian A, Narayan R, Corsello SM, et al. A next generation connectivity map: L1000 platform and the first 1,000,000 profiles. Cell. 2017;171(6):1437-1452.e17. doi:10.1016/j.cell.2017.10.049
+
+### 57 | Normal
+[9] Chen D, Wu G, Liao S, Zhu H, Li F, Liu C, Zhao H, Meng Q, Fang X. Machine learning-driven identification of circulating biomarkers and therapeutic compounds for diabetic retinopathy. Hum Genomics. 2026 May 14. doi:10.1186/s40246-026-00967-2. Epub ahead of print.
+
+### 58 | Normal
+[10] Võsa U, Claringbould A, Westra HJ, et al. Large-scale cis- and trans-eQTL analyses identify thousands of genetic loci and polygenic scores that regulate blood gene expression. Nat Genet. 2021;53(9):1300-1310. doi:10.1038/s41588-021-00913-z
+
+### 59 | Normal
+[11] Kurki MI, Karjalainen J, Palta P, et al. FinnGen provides genetic insights from a well-phenotyped isolated population. Nature. 2023;613(7944):508-518. doi:10.1038/s41586-022-05473-8
+
+### 60 | Normal
+[12] Bannier-Hélaouët M, Korving J, Ma Z, et al. Human conjunctiva organoids to study ocular surface homeostasis and disease. Cell Stem Cell. 2024;31(2):227-243.e12. doi:10.1016/j.stem.2023.12.008
+
+### 61 | Normal
+[13] Schmidt AF, Finan C, Gordillo-Marañón M, et al. Genetic drug target validation using Mendelian randomisation. Nat Commun, 2020, 11(1): 3255.
+
+### 62 | Normal
+[14] Li J, Shen J, Beuerman RW. Expression of toll-like receptors in human limbal and conjunctival epithelial cells. Mol Vis, 2007, 13: 813-822.
+
+### 63 | Normal
+[15] Li D, Hodges R, AukrustNaqvi M, et al. Staphylococcus aureus activates NLRP3-dependent IL-1β secretion from human conjunctival goblet cells using α toxin and toll-like receptors 2 and 1. Front Cell Infect Microbiol, 2023, 13: 1265471.
+
+### 64 | Normal
+[16] Cook EB, Stahl JL, Esnault S, et al. Toll-like receptor 2 expression on human conjunctival epithelial cells: a pathway for Staphylococcus aureus involvement in chronic ocular proinflammatory responses. Ann Allergy Asthma Immunol, 2005, 94(4): 486-497.
+
+### 65 | Normal
+[17] Nathan A, Asgari S, Ishigaki K, et al. Single-cell eQTL models reveal dynamic T cell state dependence of disease loci. Nature, 2022, 606(7912): 120-128.
+
+### 66 | Normal
+[18] Kormann MS, Depner M, Hartl D, et al. Toll-like receptor heterodimer variants protect from childhood asthma. J Allergy Clin Immunol, 2008, 122(1): 86-92.
+
+### 67 | Normal
+[19] Oosting M, Cheng SC, Bolscher JM, et al. Human TLR10 is an anti-inflammatory pattern-recognition receptor. Proc Natl Acad Sci U S A, 2014, 111(42): E4478-E4484.
+
+### 68 | Normal
+[20] Yuan L, Su W, Li L, et al. IL-18 receptor axis in allergic conjunctivitis: a multi-omics study. Front Immunol, 2025, 16: 1704591.
+
+### 69 | Normal
+[21] Cao X, Xu Z, Zhang B, et al. Metabolic biomarkers mediate allergic conjunctivitis via circulating inflammatory proteins: evidence from a Mendelian randomization study. Transl Vis Sci Technol, 2025, 14(4): 12.
+
+### 70 | Normal
+[22] Roychoudhuri R, Hirahara K, Mousavi K, et al. BACH2 represses effector programs to stabilize Treg-mediated immune homeostasis. Nature, 2013, 498(7455): 506-510.
+
+### 71 | Normal
+[23] Liu G, Liu F. Bach2: a key regulator in Th2-related immune cells and Th2 immune response. J Immunol Res, 2022, 2022: 2814510.
+
+### 72 | Normal
+[24] Khaw PT, Bouremel Y, Brocchini S, et al. The control of conjunctival fibrosis as a paradigm for the prevention of ocular fibrosis-related blindness. "Fibrosis has many friends". Eye (Lond), 2020, 34(12): 2163-2174.
+
+### 73 | Normal
+[25] Singhal D, Sahay P, Maharana PK, et al. Vernal keratoconjunctivitis. Surv Ophthalmol, 2019, 64(3): 289-311.
+
+### 74 | Normal
+[26] Lee JY, Gallo RA, Ledon PJ, et al. Integrating differential gene expression analysis with perturbagen-response signatures may identify novel therapies for thyroid-associated orbitopathy. Transl Vis Sci Technol, 2020, 9(9): 39.
+
+### 75 | Normal
+[27] Dadaci Z, Borazan M, Kiyici A, et al. Plasma vitamin D and serum total immunoglobulin E levels in patients with seasonal allergic conjunctivitis. Acta Ophthalmol, 2014, 92(6): e443-e446.
+
+### 76 | Normal
+[28] Verma R, Kim JY. 1,25-Dihydroxyvitamin D3 facilitates M2 polarization and upregulates TLR10 expression on human microglial cells. Neuroimmunomodulation, 2016, 23(2): 75-80.
+
+### 77 | Normal
+[29] Yuan S, Wang L, Zhang H, et al. Mendelian randomization and clinical trial evidence supports TYK2 inhibition as a therapeutic target for autoimmune diseases. EBioMedicine, 2023, 89: 104488.
+
+### 78 | Normal
+[30] Hong Y, Mi Y, Chen F, et al. Dissecting immune cell-specific genetics in migraine: a multi-omics framework for target discovery and therapeutic prioritization. J Headache Pain, 2025, 26(1): 195.
+
+### 79 | Normal
+[31] Hukerikar N, Hingorani AD, Asselbergs FW, et al. Prioritising genetic findings for drug target identification and validation. Atherosclerosis, 2024, 390: 117462.
+
+### 80 | Normal
+[32] Collin J, Queen R, Zerti D, et al. A single cell atlas of human cornea that defines its development, limbal progenitor cells and their interactions with the immune cells. Ocul Surf, 2021, 21: 279-298.

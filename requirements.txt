@@ -1,0 +1,11 @@
+# Direct dependencies of the analysis and figure/manuscript build scripts.
+# scipy, statsmodels and R are intentionally absent: the statistical estimators
+# (IVW, MR-Egger, weighted median, mode estimators, Cochran Q, leave-one-out,
+# Steiger, coloc.abf, HEIDI) are implemented in scripts/lib_stats.py.
+
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+requests>=2.28
+python-docx>=1.0
+Pillow>=10.0

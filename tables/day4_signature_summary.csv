@@ -1,0 +1,29 @@
+﻿metric,value
+cells_total,27600
+cells_pass_qc,27282
+cells_high,1703
+cells_low,1703
+stratifier_mode,"single gene, lineage-restricted split"
+target_gene,TLR1
+sensitivity_gene,
+split_restriction,"target-detected cells with a dominant lineage, split inside each lineage"
+cells_used_for_split,3522
+lineages_in_primary_split,7
+lineages_used_for_replication,6
+lineage_assignment_threshold_z,0.5
+median_target_cpm,0
+target_detection_pct,14.5
+target_r2_lineage_depth,0.0467
+genes_tested,18007
+genes_celllevel_fdr_lt_0.05,319
+clusters_used_for_consistency,5
+signature_up_n,300
+signature_dn_n,300
+lineage_filtered_genes,117
+library_size_gap_pct,-3
+target_residual_gap_high_vs_low,1.016
+cross_lineage_signature_concordance_pct,73.5
+cross_lineage_median_pearson_r,0.244
+cross_lineage_genes_reproduced,292
+cross_lineage_genes_reproduced_pct,48.7
+sensitivity_direction_agreement_pct,73.5

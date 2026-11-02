@@ -1,0 +1,7 @@
+﻿library,signature,status,n_terms,seconds
+LINCS_L1000_Chem_Pert_down,up,failed:RuntimeError,0,170.8
+LINCS_L1000_Chem_Pert_up,dn,ok,300,187.1
+Drug_Perturbations_from_GEO_down,up,ok,300,16.6
+Drug_Perturbations_from_GEO_up,dn,ok,300,10.4
+LINCS_L1000_Ligand_Perturbations_down,up,ok,92,3.2
+LINCS_L1000_Ligand_Perturbations_up,dn,ok,87,1.8

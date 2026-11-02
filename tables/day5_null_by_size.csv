@@ -1,0 +1,5 @@
+﻿query_n,observed_top_score,null_n,null_mean,null_sd,null_min,null_max,n_null_ge_observed,observed_z,permutation_p,null_draws_with_glucocorticoid
+10,0.3333,20,0.19087,0.04796,0.1111,0.3158,0,2.97,0.0476,4
+15,0.25,20,0.15507,0.0385,0.0741,0.2308,0,2.47,0.0476,2
+25,0.1429,20,0.11617,0.01557,0.087,0.1458,1,1.72,0.0952,3
+35,0.1053,20,0.10048,0.01369,0.0806,0.1324,5,0.35,0.2857,1

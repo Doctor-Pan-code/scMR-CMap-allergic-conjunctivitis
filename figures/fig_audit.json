@@ -1,0 +1,56 @@
+{
+  "fig1_study_design": {
+    "min_pt": 7.0,
+    "max_pt": 8.0,
+    "w_mm": 165.0,
+    "h_mm": 119.02,
+    "n_text": 57,
+    "outside": [],
+    "collisions": []
+  },
+  "fig2_mr_screen": {
+    "min_pt": 7.0,
+    "max_pt": 8.0,
+    "w_mm": 165.0,
+    "h_mm": 135.25,
+    "n_text": 64,
+    "outside": [],
+    "collisions": []
+  },
+  "fig3_coloc_smr": {
+    "min_pt": 7.0,
+    "max_pt": 8.0,
+    "w_mm": 165.0,
+    "h_mm": 106.39,
+    "n_text": 82,
+    "outside": [],
+    "collisions": []
+  },
+  "fig4_singlecell": {
+    "min_pt": 7.0,
+    "max_pt": 8.0,
+    "w_mm": 165.0,
+    "h_mm": 135.25,
+    "n_text": 119,
+    "outside": [],
+    "collisions": []
+  },
+  "fig5_cmap": {
+    "min_pt": 7.0,
+    "max_pt": 8.0,
+    "w_mm": 165.0,
+    "h_mm": 106.39,
+    "n_text": 78,
+    "outside": [],
+    "collisions": []
+  },
+  "fig6_safety_integration": {
+    "min_pt": 7.0,
+    "max_pt": 8.0,
+    "w_mm": 165.0,
+    "h_mm": 106.39,
+    "n_text": 139,
+    "outside": [],
+    "collisions": []
+  }
+}

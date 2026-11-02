@@ -1,0 +1,48 @@
+# ---- secrets -------------------------------------------------------------
+config/opengwas_token.txt
+*.token
+.env
+
+# ---- large upstream inputs (see data/README.md) --------------------------
+data/hgnc_complete_set.txt
+data/dgidb_genes.tsv
+data/dgidb_interactions.tsv
+data/opengwas_catalog.json
+data/geo/
+
+# ---- run artifacts -------------------------------------------------------
+logs/
+data/intermediate/
+manuscript_out/
+/report/
+figures/png/
+figures/svg/
+
+# ---- python --------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- editors and OS ------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# ---- office temp files ---------------------------------------------------
+~$*.docx
+~$*.xlsx
+~$*.pptx

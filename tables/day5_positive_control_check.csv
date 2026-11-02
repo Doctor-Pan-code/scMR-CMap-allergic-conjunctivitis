@@ -1,0 +1,6 @@
+﻿control,expected,n_retrieved,best_rank,pass,detail,note
+known_answer_dexamethasone,glucocorticoids occupy the top ranks,13,1,True,"n=10:best_rank=1,count=13; n=15:best_rank=6,count=13; n=25:best_rank=3,count=13; n=35:best_rank=1,count=9","a textbook glucocorticoid response retrieves glucocorticoids from the same engine, so the pipeline can detect a reversal signal when one exists"
+class_glucocorticoid,reversing,1,34,False,HYDROCORTISONE@34,0 of 1 retrieved members are reversal-specific
+class_anti_allergic_or_bronchodilator,either,0,,,,0 of 0 retrieved members are reversal-specific
+class_immunosuppressant,either,0,,,,0 of 0 retrieved members are reversal-specific
+class_anti_inflammatory,either,0,,,,0 of 0 retrieved members are reversal-specific

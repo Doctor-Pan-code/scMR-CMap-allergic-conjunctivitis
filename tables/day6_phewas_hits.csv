@@ -1,0 +1,107 @@
+﻿gene,rsid,dataset,phenocode,trait,category,domain,severity,ncase,beta,se,p,or,ea,nea,significant
+CRK,rs76999852,finn-b-K11_DIAHER,K11_DIAHER,Diaphragmatic hernia,XI Diseases of the digestive system (K11_),atopic_immune,non_severe,5741,-0.2191,0.0471,3.264e-06,0.803241,C,G,True
+HSD17B8,rs7750298,finn-b-K11_COELIAC,K11_COELIAC,Coeliac disease,XI Diseases of the digestive system (K11_),atopic_immune,non_severe,1973,0.2743,0.0378,4.06818e-13,1.31561,T,C,True
+HSD17B8,rs7750298,finn-b-E4_DM1,E4_DM1,Type 1 diabetes,unmapped,unmapped,non_severe,5928,-0.164,0.0228,5.81701e-13,0.848742,T,C,True
+HSD17B8,rs7750298,finn-b-E4_DM1NOCOMP,E4_DM1NOCOMP,Type 1 diabetes without complications,unmapped,unmapped,non_severe,4918,-0.1748,0.0251,3.60994e-12,0.839625,T,C,True
+HSD17B8,rs7750298,finn-b-T1D_WIDE,T1D_WIDE,"Type 1 diabetes, wide definition",Diabetes endpoints,diabetes endpoints,non_severe,6729,-0.1445,0.0216,2.25424e-11,0.865455,T,C,True
+HSD17B8,rs7750298,finn-b-T1D_WIDE1,T1D_WIDE1,"Type 1 diabetes, wide definition, subgroup 1",unmapped,unmapped,non_severe,4849,-0.1656,0.0252,4.69137e-11,0.847385,T,C,True
+HSD17B8,rs7750298,finn-b-E4_DM1NASCOMP,E4_DM1NASCOMP,Type 1 diabetes with other specified/multiple/unspecified complications,unmapped,unmapped,non_severe,3416,-0.1683,0.0291,7.142e-09,0.8451,T,C,True
+HSD17B8,rs7750298,finn-b-E4_DM1OPTH,E4_DM1OPTH,Type 1 diabetes with ophthalmic complications,unmapped,ocular,non_severe,2877,-0.1738,0.0317,4.37905e-08,0.840465,T,C,True
+HSD17B8,rs7750298,finn-b-DM_KETOACIDOSIS,DM_KETOACIDOSIS,Diabetic ketoacidosis,unmapped,unmapped,non_severe,4510,-0.1192,0.0255,3.071e-06,0.88763,T,C,True
+HSD17B8,rs7750298,finn-b-H7_IRIDOACUTE,H7_IRIDOACUTE,Acute and subacute iridocyclitis,VII Diseases of the eye and adnexa (H7_),ocular,non_severe,3126,0.13,0.029,7.42694e-06,1.13883,T,C,True
+HSD17B8,rs7750298,finn-b-K11_OTHDIG,K11_OTHDIG,Other diseases of the digestive system (K11_OTHDIG),XI Diseases of the digestive system (K11_),atopic_immune,non_severe,7828,0.0779,0.0185,2.474e-05,1.08101,T,C,True
+HSD17B8,rs7750298,finn-b-H7_IRIDOCYCLITIS,H7_IRIDOCYCLITIS,Iridocyclitis,VII Diseases of the eye and adnexa (H7_),ocular,non_severe,3622,0.1119,0.027,3.38797e-05,1.1184,T,C,True
+NNT,rs7731091,finn-b-E4_DM2OPTH,E4_DM2OPTH,Type 2 diabetes with ophthalmic complications,unmapped,ocular,non_severe,2119,0.1387,0.0325,2.01999e-05,1.14878,A,C,True
+PBXIP1,rs11065979,finn-b-AUTOIMMUNE,AUTOIMMUNE,Autoimmune diseases,Diseases marked as autimmune origin,diseases marked as autimmune origin,non_severe,42202,0.1399,0.0091,1.97015e-53,1.15016,T,C,True
+PBXIP1,rs11065979,finn-b-E4_HYTHY_AI_STRICT,E4_HYTHY_AI_STRICT,"Hypothyroidism, strict autoimmune","IV Endocrine, nutritional and metabolic diseases (E4_)","iv endocrine, nutritional and metabolic diseases (e4_)",non_severe,22997,0.164,0.0119,2.10184e-43,1.17821,T,C,True
+PBXIP1,rs11065979,finn-b-E4_HYTHY_AI_STRICT_PURCH,E4_HYTHY_AI_STRICT_PURCH,"Hypothyroidism, strict autoimmune, 3 medication purchases required",unmapped,unmapped,non_severe,26064,0.1417,0.0111,1.62218e-37,1.15223,T,C,True
+PBXIP1,rs11065979,finn-b-E4_HYTHYNAS,E4_HYTHYNAS,"Hypothyroidism,  other/unspecified",unmapped,unmapped,non_severe,26306,0.1381,0.011,6.93266e-36,1.14809,T,C,True
+PBXIP1,rs11065979,finn-b-HYPOTHY_LEVOTHY,HYPOTHY_LEVOTHY,"Hypothyroidism, levothyroxin purchases",unmapped,unmapped,non_severe,26064,0.1629,0.014,2.74916e-31,1.17692,T,C,True
+PBXIP1,rs11065979,finn-b-HYPOTHY_PURCHASE,HYPOTHY_PURCHASE,Hypothyroidism and >3 levothyroxin purchases,unmapped,unmapped,non_severe,26064,0.1629,0.014,2.74916e-31,1.17692,T,C,True
+PBXIP1,rs11065979,finn-b-HYPOTHYROIDISM,HYPOTHYROIDISM,Hypothyroidism (congenital or acquired),unmapped,unmapped,non_severe,26342,0.1595,0.0139,1.84502e-30,1.17292,T,C,True
+PBXIP1,rs11065979,finn-b-E4_THYROID,E4_THYROID,Disorders of the thyroid gland,"IV Endocrine, nutritional and metabolic diseases (E4_)","iv endocrine, nutritional and metabolic diseases (e4_)",non_severe,31108,0.1125,0.0102,2.23821e-28,1.11907,T,C,True
+PBXIP1,rs11065979,finn-b-HYPOTHY_REIMB,HYPOTHY_REIMB,"Hypothyroidism, drug reimbursement","IV Endocrine, nutritional and metabolic diseases (E4_)","iv endocrine, nutritional and metabolic diseases (e4_)",non_severe,7183,0.2182,0.0219,2.24285e-23,1.24384,T,C,True
+PBXIP1,rs11065979,finn-b-RX_ANTIHYP,RX_ANTIHYP,Antihypertensive medication - note that there are other indications,Drug purchase endpoints,drug purchase endpoints,non_severe,107287,0.0705,0.0085,1.60398e-16,1.07304,T,C,True
+PBXIP1,rs11065979,finn-b-FG_HYPERTENSION,FG_HYPERTENSION,Hypertensive diseases (excluding secondary),unmapped,unmapped,non_severe,55955,0.0704,0.0094,5.77564e-14,1.07294,T,C,True
+PBXIP1,rs11065979,finn-b-I9_HYPERTENSION,I9_HYPERTENSION,Hypertensive diseases,unmapped,unmapped,non_severe,55955,0.0704,0.0094,5.77564e-14,1.07294,T,C,True
+PBXIP1,rs11065979,finn-b-I9_HYPTENS,I9_HYPTENS,Hypertension,IX Diseases of the circulatory system (I9_),ix diseases of the circulatory system (i9_),non_severe,55917,0.0703,0.0094,6.22587e-14,1.07283,T,C,True
+PBXIP1,rs11065979,finn-b-I9_HYPTENS_EXNONE,I9_HYPTENS_EXNONE,Hypertension (no controls excluded),unmapped,unmapped,non_severe,55917,0.0704,0.0094,6.24166e-14,1.07294,T,C,True
+PBXIP1,rs11065979,finn-b-E4_ENDONUTRMET,E4_ENDONUTRMET,"Endocrine, nutritional and metabolic diseases",unmapped,unmapped,non_severe,77918,0.0561,0.0076,1.49692e-13,1.0577,T,C,True
+PBXIP1,rs11065979,finn-b-E4_DM1NOCOMP,E4_DM1NOCOMP,Type 1 diabetes without complications,unmapped,unmapped,non_severe,4918,0.1736,0.0237,2.65399e-13,1.18958,T,C,True
+PBXIP1,rs11065979,finn-b-ILD_ENDPOINTS,ILD_ENDPOINTS,Interstitial lung disease endpoints,Interstitial lung disease endpoints,interstitial lung disease endpoints,non_severe,21806,0.0786,0.011,1.07795e-12,1.08177,T,C,True
+PBXIP1,rs11065979,finn-b-DM_COMORB_EXMORE,DM_COMORB_EXMORE,Diabetes-related co-morbidities/complications (more controls excluded),unmapped,unmapped,non_severe,56591,0.0629,0.0089,1.75106e-12,1.06492,T,C,True
+PBXIP1,rs11065979,finn-b-E4_DM1,E4_DM1,Type 1 diabetes,unmapped,unmapped,non_severe,5928,0.1473,0.0215,6.81554e-12,1.1587,T,C,True
+PBXIP1,rs11065979,finn-b-FG_CVD,FG_CVD,Cardiovascular diseases (excluding rheumatic etc),Cardiometabolic endpoints,cardiometabolic endpoints,non_severe,101866,0.0552,0.0081,7.10068e-12,1.05675,T,C,True
+PBXIP1,rs11065979,finn-b-T1D_WIDE1,T1D_WIDE1,"Type 1 diabetes, wide definition, subgroup 1",unmapped,unmapped,non_severe,4849,0.1605,0.0237,1.39412e-11,1.1741,T,C,True
+PBXIP1,rs11065979,finn-b-K11_REIMB_202,K11_REIMB_202,KELA_REIMBURSEMENT_202,Gastrointestinal endpoints,gastrointestinal endpoints,non_severe,10919,0.1035,0.0153,1.43814e-11,1.10905,T,C,True
+PBXIP1,rs11065979,finn-b-I9_HYPTENSESS,I9_HYPTENSESS,"Hypertension, essential",IX Diseases of the circulatory system (I9_),ix diseases of the circulatory system (i9_),non_severe,42857,0.0678,0.0101,1.78197e-11,1.07015,T,C,True
+PBXIP1,rs11065979,finn-b-I9_CVD_HARD,I9_CVD_HARD,Hard cardiovascular diseases,Cardiometabolic endpoints,cardiometabolic endpoints,non_severe,29350,0.0729,0.0112,8.70362e-11,1.07562,T,C,True
+PBXIP1,rs11065979,finn-b-I9_CORATHER,I9_CORATHER,Coronary atherosclerosis,IX Diseases of the circulatory system (I9_),ix diseases of the circulatory system (i9_),non_severe,23363,0.0819,0.0129,2.07702e-10,1.08535,T,C,True
+PBXIP1,rs11065979,finn-b-T1D_WIDE,T1D_WIDE,"Type 1 diabetes, wide definition",Diabetes endpoints,diabetes endpoints,non_severe,6729,0.1254,0.0203,7.07897e-10,1.1336,T,C,True
+PBXIP1,rs11065979,finn-b-I9_CVD,I9_CVD,Cardiovascular diseases,unmapped,unmapped,non_severe,111108,0.0482,0.0079,1.17801e-09,1.04938,T,C,True
+PBXIP1,rs11065979,finn-b-I9_CORATHER_EXNONE,I9_CORATHER_EXNONE,Coronary atherosclerosis (no controls excluded),unmapped,unmapped,non_severe,23363,0.0764,0.0128,2.07e-09,1.07939,T,C,True
+PBXIP1,rs11065979,finn-b-I9_HYPTENSESS_EXNONE,I9_HYPTENSESS_EXNONE,"""Hypertension, essential"" (no controls excluded)",unmapped,unmapped,non_severe,42857,0.0579,0.0097,2.09701e-09,1.05961,T,C,True
+PBXIP1,rs11065979,finn-b-STILL_ADULT,STILL_ADULT,Adult-onset Still disease,Rheuma endpoints,rheuma endpoints,non_severe,3403,0.1524,0.0259,4.19701e-09,1.16463,T,C,True
+PBXIP1,rs11065979,finn-b-I9_REVASC,I9_REVASC,Coronary revascularization (ANGIO or CABG),IX Diseases of the circulatory system (I9_),ix diseases of the circulatory system (i9_),non_severe,12271,0.0994,0.0171,5.69403e-09,1.10451,T,C,True
+PBXIP1,rs11065979,finn-b-I9_HEARTFAIL_AND_ANTIHYPERT,I9_HEARTFAIL_AND_ANTIHYPERT,Heart failure and antihypertensive medication,unmapped,unmapped,non_severe,22113,0.0849,0.0148,9.27791e-09,1.08861,T,C,True
+PBXIP1,rs11065979,finn-b-K11_COELIAC,K11_COELIAC,Coeliac disease,XI Diseases of the digestive system (K11_),atopic_immune,non_severe,1973,0.2002,0.0349,9.64806e-09,1.22165,T,C,True
+PBXIP1,rs11065979,finn-b-I9_ANGIO,I9_ANGIO,Coronary angiopasty,IX Diseases of the circulatory system (I9_),ix diseases of the circulatory system (i9_),non_severe,7920,0.1112,0.0195,1.236e-08,1.11762,T,C,True
+PBXIP1,rs11065979,finn-b-M13_RHEUMA_INCLAVO,M13_RHEUMA_INCLAVO,Rheumatoid arthritis (M13_RHEUMA_INCLAVO),unmapped,unmapped,non_severe,6329,0.1077,0.0195,3.43898e-08,1.11371,T,C,True
+PBXIP1,rs11065979,finn-b-M13_RHEUMA,M13_RHEUMA,Rheumatoid arthritis (M13_RHEUMA),XIII Diseases of the musculoskeletal system and connective tissue (M13_),xiii diseases of the musculoskeletal system and connective tissue (m13_),non_severe,6236,0.1087,0.02,5.33703e-08,1.11483,T,C,True
+PBXIP1,rs11065979,finn-b-E4_DM1NASCOMP,E4_DM1NASCOMP,Type 1 diabetes with other specified/multiple/unspecified complications,unmapped,unmapped,non_severe,3416,0.1481,0.0275,7.35902e-08,1.15963,T,C,True
+PBXIP1,rs11065979,finn-b-I9_IHD,I9_IHD,"Ischaemic heart disease, wide definition",IX Diseases of the circulatory system (I9_),ix diseases of the circulatory system (i9_),non_severe,31640,0.0605,0.0113,9.11192e-08,1.06237,T,C,True
+PBXIP1,rs11065979,finn-b-M13_POLYARTHROPATHIES,M13_POLYARTHROPATHIES,Polyarthropathies,XIII Diseases of the musculoskeletal system and connective tissue (M13_),xiii diseases of the musculoskeletal system and connective tissue (m13_),non_severe,15246,0.0705,0.0133,1.05e-07,1.07304,T,C,True
+PBXIP1,rs11065979,finn-b-I9_ISCHHEART,I9_ISCHHEART,Ischemic heart diseases,unmapped,unmapped,non_severe,30952,0.0596,0.0114,1.50501e-07,1.06141,T,C,True
+PBXIP1,rs11065979,finn-b-I9_REVASC_EXNONE,I9_REVASC_EXNONE,Coronary revascularization (ANGIO or CABG) (no controls excluded),unmapped,unmapped,non_severe,12271,0.086,0.0165,1.75902e-07,1.08981,T,C,True
+PBXIP1,rs11065979,finn-b-I9_REVACS_EXNONE,I9_REVACS_EXNONE,Emergency coronary revascularization (for ACS) (no controls excluded),unmapped,unmapped,non_severe,12271,0.086,0.0165,1.75902e-07,1.08981,T,C,True
+PBXIP1,rs11065979,finn-b-RHEUMA_OTHER_WIDE,RHEUMA_OTHER_WIDE,"Other (seronegative) rheumatoid arthritis, wide",Rheuma endpoints,rheuma endpoints,non_severe,2993,0.1411,0.0274,2.57199e-07,1.15154,T,C,True
+PBXIP1,rs11065979,finn-b-I9_CHD,I9_CHD,Major coronary heart disease event,IX Diseases of the circulatory system (I9_),ix diseases of the circulatory system (i9_),non_severe,21012,0.0664,0.0133,5.80203e-07,1.06865,T,C,True
+PBXIP1,rs11065979,finn-b-J10_UPPERINFEC,J10_UPPERINFEC,Acute upper respiratory infections,X Diseases of the respiratory system (J10_),x diseases of the respiratory system (j10_),non_severe,35847,0.0448,0.009,6.222e-07,1.04582,T,C,True
+PBXIP1,rs11065979,finn-b-C_STROKE,C_STROKE,STROKE,Comorbidities of Diabetes,comorbidities of diabetes,severe,18661,0.0641,0.0129,6.49098e-07,1.0662,T,C,True
+PBXIP1,rs11065979,finn-b-E4_DM1OPTH,E4_DM1OPTH,Type 1 diabetes with ophthalmic complications,unmapped,ocular,non_severe,2877,0.1462,0.03,1.09401e-06,1.15743,T,C,True
+PBXIP1,rs11065979,finn-b-RHEUMA_SEROPOS_OTH,RHEUMA_SEROPOS_OTH,Other/unspecified seropositiverheumatoid arthritis,unmapped,unmapped,non_severe,4539,0.1117,0.023,1.15199e-06,1.11818,T,C,True
+PBXIP1,rs11065979,finn-b-RX_CROHN_2NDLINE,RX_CROHN_2NDLINE,Second line medication for Crohns disease,Drug purchase endpoints,drug purchase endpoints,non_severe,9669,0.075,0.0158,2.065e-06,1.07788,T,C,True
+PBXIP1,rs11065979,finn-b-I9_ANGIO_EXNONE,I9_ANGIO_EXNONE,Coronary angiopasty (no controls excluded),unmapped,unmapped,non_severe,7920,0.0895,0.0189,2.09098e-06,1.09363,T,C,True
+PBXIP1,rs11065979,finn-b-I9_MI,I9_MI,Myocardial infarction,unmapped,unmapped,severe,12801,0.0751,0.016,2.69998e-06,1.07799,T,C,True
+PBXIP1,rs11065979,finn-b-RHEUMA_SEROPOS,RHEUMA_SEROPOS,Seropositive rheumatoid arthritis,unmapped,unmapped,non_severe,4596,0.106,0.023,3.95103e-06,1.11182,T,C,True
+PBXIP1,rs11065979,finn-b-RHEUMA_SEROPOS_WIDE,RHEUMA_SEROPOS_WIDE,"Seropositive rheumatoid arthritis, wide",Rheuma endpoints,rheuma endpoints,non_severe,4594,0.1053,0.0228,4.00802e-06,1.11104,T,C,True
+PBXIP1,rs11065979,finn-b-DM_PERIPHATHERO,DM_PERIPHATHERO,Peripheral atherosclerosis,unmapped,unmapped,non_severe,6631,0.0931,0.0208,7.787e-06,1.09757,T,C,True
+PBXIP1,rs11065979,finn-b-K11_ENERCOLNONINF,K11_ENERCOLNONINF,Noninfective enteritis and colitis,XI Diseases of the digestive system (K11_),atopic_immune,non_severe,8492,0.0744,0.0167,8.38996e-06,1.07724,T,C,True
+PBXIP1,rs11065979,finn-b-I9_MI_STRICT,I9_MI_STRICT,"Myocardial infarction, strict",IX Diseases of the circulatory system (I9_),ix diseases of the circulatory system (i9_),severe,11622,0.074,0.0167,9.06108e-06,1.07681,T,C,True
+PBXIP1,rs11065979,finn-b-DM_KETOACIDOSIS,DM_KETOACIDOSIS,Diabetic ketoacidosis,unmapped,unmapped,non_severe,4510,0.1061,0.024,1.01501e-05,1.11193,T,C,True
+PBXIP1,rs11065979,finn-b-I9_AF,I9_AF,Atrial fibrillation and flutter,IX Diseases of the circulatory system (I9_),ix diseases of the circulatory system (i9_),non_severe,22068,0.0673,0.0152,1.01801e-05,1.06962,T,C,True
+PBXIP1,rs11065979,finn-b-I9_AF_REIMB,I9_AF_REIMB,Atrial fibrillation and flutter with reimbursement,IX Diseases of the circulatory system (I9_),ix diseases of the circulatory system (i9_),non_severe,10516,0.0855,0.0196,1.36201e-05,1.08926,T,C,True
+PBXIP1,rs11065979,finn-b-PULM_INFECTIONS,PULM_INFECTIONS,COPD/asthma/ILD related infections,Interstitial lung disease endpoints,atopic_immune,non_severe,58925,0.0321,0.0075,1.69099e-05,1.03262,T,C,True
+PBXIP1,rs11065979,finn-b-COPD_ASTHMA_INFECTIONS,COPD_ASTHMA_INFECTIONS,COPD/asthma related infections,unmapped,atopic_immune,non_severe,58925,0.0321,0.0075,1.69099e-05,1.03262,T,C,True
+PBXIP1,rs11065979,finn-b-J10_ACUTEUPPERINFEC,J10_ACUTEUPPERINFEC,Acute upper respiratory infections of multiple and unspecified sites,X Diseases of the respiratory system (J10_),x diseases of the respiratory system (j10_),non_severe,17920,0.0502,0.0119,2.63797e-05,1.05148,T,C,True
+PBXIP1,rs11065979,finn-b-FG_DISVEINLYMPH,FG_DISVEINLYMPH,"Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified (FINNGEN)",unmapped,unmapped,non_severe,24817,0.0471,0.0113,2.98099e-05,1.04823,T,C,True
+PBXIP1,rs11065979,finn-b-I9_HEARTFAIL_AND_OVERWEIGHT,I9_HEARTFAIL_AND_OVERWEIGHT,Heart failure and bmi 25plus,Cardiometabolic endpoints,cardiometabolic endpoints,non_severe,23701,0.0475,0.0114,3.18002e-05,1.04865,T,C,True
+PBXIP1,rs11065979,finn-b-I9_HEARTFAIL_NS,I9_HEARTFAIL_NS,"Heart failure, not strict",unmapped,unmapped,non_severe,23701,0.0475,0.0114,3.18002e-05,1.04865,T,C,True
+PBXIP1,rs11065979,finn-b-H7_RETINALDISOTH,H7_RETINALDISOTH,Other retinal disorders,VII Diseases of the eye and adnexa (H7_),ocular,non_severe,11096,0.0613,0.0149,3.88204e-05,1.06322,T,C,True
+PHF1,rs59473078,finn-b-H7_ALLERGICCONJUNCTIVITIS,H7_ALLERGICCONJUNCTIVITIS,Allergic conjunctivitis,VII Diseases of the eye and adnexa (H7_),ocular,non_severe,9833,0.5027,0.1236,4.76596e-05,1.65318,T,C,True
+TLR1,rs189688666,finn-b-H7_ALLERGICCONJUNCTIVITIS,H7_ALLERGICCONJUNCTIVITIS,Allergic conjunctivitis,VII Diseases of the eye and adnexa (H7_),ocular,non_severe,9833,-0.1573,0.0314,5.46298e-07,0.854448,T,G,True
+TLR1,rs189688666,finn-b-J10_ASTHMA_INCLAVO,J10_ASTHMA_INCLAVO,"Asthma, including avohilmo",unmapped,atopic_immune,non_severe,22244,-0.1103,0.0223,7.43396e-07,0.895565,T,G,True
+TLR1,rs189688666,finn-b-POLLENALLERG,POLLENALLERG,Pollen allergy,Comorbidities of Asthma,atopic_immune,non_severe,2972,-0.2685,0.055,1.031e-06,0.764525,T,G,True
+TLR1,rs189688666,finn-b-ASTHMA_MODE,ASTHMA_MODE,Asthma (mode),unmapped,atopic_immune,non_severe,19573,-0.1179,0.0243,1.19001e-06,0.888785,T,G,True
+TLR1,rs189688666,finn-b-H7_USEOFEYEANTIALLERGENS,H7_USEOFEYEANTIALLERGENS,Use of eye-antiallergens (taken as indicator of allergic/atopic conjunctivitis),unmapped,ocular,non_severe,9431,-0.1548,0.032,1.33601e-06,0.856586,T,G,True
+TLR1,rs189688666,finn-b-ASTHMA_HOSPITAL_MAIN,ASTHMA_HOSPITAL_MAIN,"Asthma, hospital admissions , main diagnosis only",unmapped,atopic_immune,non_severe,17433,-0.1184,0.0245,1.38998e-06,0.888341,T,G,True
+TLR1,rs189688666,finn-b-J10_ASTHMA_EXMORE,J10_ASTHMA_EXMORE,Asthma (more controls excluded),X Diseases of the respiratory system (J10_),atopic_immune,non_severe,20629,-0.1149,0.0239,1.57101e-06,0.891455,T,G,True
+TLR1,rs189688666,finn-b-J10_ASTHMA,J10_ASTHMA,Asthma,unmapped,atopic_immune,non_severe,20629,-0.1143,0.0238,1.583e-06,0.89199,T,G,True
+TLR1,rs189688666,finn-b-J10_LOWCHRON,J10_LOWCHRON,Chronic lower respiratory diseases,X Diseases of the respiratory system (J10_),x diseases of the respiratory system (j10_),non_severe,32069,-0.0908,0.0193,2.44799e-06,0.9132,T,G,True
+TLR1,rs189688666,finn-b-J10_ASTHMA_MAIN,J10_ASTHMA_MAIN,Asthma (only as main-diagnosis),unmapped,atopic_immune,non_severe,17438,-0.1193,0.0254,2.65302e-06,0.887541,T,G,True
+TLR1,rs189688666,finn-b-J10_ASTHMA_MAIN_EXMORE,J10_ASTHMA_MAIN_EXMORE,Asthma (only as main-diagnosis) (more controls excluded),X Diseases of the respiratory system (J10_),atopic_immune,non_severe,17438,-0.1187,0.0254,3.05499e-06,0.888074,T,G,True
+TLR1,rs189688666,finn-b-J10_ASTHMACOPDKELA,J10_ASTHMACOPDKELA,Asthma/COPD (KELA code 203),X Diseases of the respiratory system (J10_),atopic_immune,non_severe,21444,-0.1008,0.0232,1.355e-05,0.904114,T,G,True
+TLR10,rs11096956,finn-b-J10_ASTHMA_INCLAVO,J10_ASTHMA_INCLAVO,"Asthma, including avohilmo",unmapped,atopic_immune,non_severe,22244,-0.0927,0.0173,7.91498e-08,0.911467,A,C,True
+TLR10,rs11096956,finn-b-J10_LOWCHRON,J10_LOWCHRON,Chronic lower respiratory diseases,X Diseases of the respiratory system (J10_),x diseases of the respiratory system (j10_),non_severe,32069,-0.0798,0.0149,8.82592e-08,0.923301,A,C,True
+TLR10,rs11096956,finn-b-ASTHMA_MODE,ASTHMA_MODE,Asthma (mode),unmapped,atopic_immune,non_severe,19573,-0.0979,0.0188,1.91898e-07,0.90674,A,C,True
+TLR10,rs11096956,finn-b-ASTHMA_HOSPITAL_MAIN,ASTHMA_HOSPITAL_MAIN,"Asthma, hospital admissions , main diagnosis only",unmapped,atopic_immune,non_severe,17433,-0.0971,0.019,3.22797e-07,0.907465,A,C,True
+TLR10,rs11096956,finn-b-J10_ASTHMA_EXMORE,J10_ASTHMA_EXMORE,Asthma (more controls excluded),X Diseases of the respiratory system (J10_),atopic_immune,non_severe,20629,-0.0945,0.0185,3.39703e-07,0.909828,A,C,True
+TLR10,rs11096956,finn-b-J10_ASTHMA,J10_ASTHMA,Asthma,unmapped,atopic_immune,non_severe,20629,-0.0941,0.0185,3.41704e-07,0.910192,A,C,True
+TLR10,rs11096956,finn-b-J10_ASTHMACOPDKELA,J10_ASTHMACOPDKELA,Asthma/COPD (KELA code 203),X Diseases of the respiratory system (J10_),atopic_immune,non_severe,21444,-0.0907,0.018,4.39997e-07,0.913292,A,C,True
+TLR10,rs11096956,finn-b-J10_ASTHMA_MAIN,J10_ASTHMA_MAIN,Asthma (only as main-diagnosis),unmapped,atopic_immune,non_severe,17438,-0.0952,0.0197,1.29999e-06,0.909191,A,C,True
+TLR10,rs11096956,finn-b-J10_ASTHMA_MAIN_EXMORE,J10_ASTHMA_MAIN_EXMORE,Asthma (only as main-diagnosis) (more controls excluded),X Diseases of the respiratory system (J10_),atopic_immune,non_severe,17438,-0.0948,0.0197,1.48201e-06,0.909555,A,C,True
+TLR10,rs11096956,finn-b-POLLENALLERG,POLLENALLERG,Pollen allergy,Comorbidities of Asthma,atopic_immune,non_severe,2972,-0.1969,0.0424,3.38197e-06,0.821273,A,C,True
+TLR10,rs11096956,finn-b-H7_ALLERGICCONJUNCTIVITIS,H7_ALLERGICCONJUNCTIVITIS,Allergic conjunctivitis,VII Diseases of the eye and adnexa (H7_),ocular,non_severe,9833,-0.1038,0.0243,1.90801e-05,0.901406,A,C,True
+TLR10,rs11096956,finn-b-ALLERG_ASTHMA_EXMORE,ALLERG_ASTHMA_EXMORE,Allergic asthma (mode) (more controls excluded),unmapped,atopic_immune,non_severe,4859,-0.1419,0.0343,3.45502e-05,0.867708,A,C,True
+TLR10,rs11096956,finn-b-ALLERG_ASTHMA,ALLERG_ASTHMA,Allergic asthma (mode),Asthma and related endpoints,atopic_immune,non_severe,4859,-0.1418,0.0343,3.51901e-05,0.867795,A,C,True
+TLR10,rs11096956,finn-b-H7_USEOFEYEANTIALLERGENS,H7_USEOFEYEANTIALLERGENS,Use of eye-antiallergens (taken as indicator of allergic/atopic conjunctivitis),unmapped,ocular,non_severe,9431,-0.1019,0.0248,3.865e-05,0.90312,A,C,True

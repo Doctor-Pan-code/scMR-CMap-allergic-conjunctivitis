@@ -1,0 +1,49 @@
+﻿gene,compound,compound_class,reversal_specificity,reverse_best_score,mimic_best_score,null_z,best_cell_line,best_dose,best_time,evidence_basis
+TLR1,BI-2536,other,0.09493,0.25,,2.47,MCF7,10,24,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,BI-2536,other,0.09493,0.25,,2.47,MCF7,10,24,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,BI-2536,other,0.09493,0.25,,2.47,MCF7,10,24,CMap reversal of the target-gene high/low conjunctival signature
+TLR1,KU 0060648 trihydrochloride,other,0.03243,0.1875,,0.84,A673,10.0,6.0,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,KU 0060648 trihydrochloride,other,0.03243,0.1875,,0.84,A673,10.0,6.0,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,KU 0060648 trihydrochloride,other,0.03243,0.1875,,0.84,A673,10.0,6.0,CMap reversal of the target-gene high/low conjunctival signature
+TLR1,"Ingenol 3, 20-dibenzoate",other,0.03243,0.1875,,0.84,MCF7,10.0,6.0,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,"Ingenol 3, 20-dibenzoate",other,0.03243,0.1875,,0.84,MCF7,10.0,6.0,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,"Ingenol 3, 20-dibenzoate",other,0.03243,0.1875,,0.84,MCF7,10.0,6.0,CMap reversal of the target-gene high/low conjunctival signature
+TLR1,5466528,other,0.03243,0.1875,,0.84,VCAP,10.0,24.0,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,5466528,other,0.03243,0.1875,,0.84,VCAP,10.0,24.0,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,5466528,other,0.03243,0.1875,,0.84,VCAP,10.0,24.0,CMap reversal of the target-gene high/low conjunctival signature
+TLR1,Fenbendazole,other,0.03243,0.1875,,0.84,PC3,10.0,24.0,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,Fenbendazole,other,0.03243,0.1875,,0.84,PC3,10.0,24.0,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,Fenbendazole,other,0.03243,0.1875,,0.84,PC3,10.0,24.0,CMap reversal of the target-gene high/low conjunctival signature
+TLR1,regorafenib,other,0.03243,0.1875,,0.84,MCF7,10,24,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,regorafenib,other,0.03243,0.1875,,0.84,MCF7,10,24,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,regorafenib,other,0.03243,0.1875,,0.84,MCF7,10,24,CMap reversal of the target-gene high/low conjunctival signature
+TLR1,GSK-2334470,other,0.03243,0.1875,,0.84,MCF7,3.33,24,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,GSK-2334470,other,0.03243,0.1875,,0.84,MCF7,3.33,24,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,GSK-2334470,other,0.03243,0.1875,,0.84,MCF7,3.33,24,CMap reversal of the target-gene high/low conjunctival signature
+TLR1,PD-0325901,other,0.03243,0.1875,,0.84,HEPG2,0.12,24,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,PD-0325901,other,0.03243,0.1875,,0.84,HEPG2,0.12,24,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,PD-0325901,other,0.03243,0.1875,,0.84,HEPG2,0.12,24,CMap reversal of the target-gene high/low conjunctival signature
+TLR1,PF 573228,other,0.03243,0.1875,,0.84,HEPG2,10,24,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,PF 573228,other,0.03243,0.1875,,0.84,HEPG2,10,24,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,PF 573228,other,0.03243,0.1875,,0.84,HEPG2,10,24,CMap reversal of the target-gene high/low conjunctival signature
+TLR1,PFI-1,other,0.03243,0.1875,,0.84,HT29,10,24,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,PFI-1,other,0.03243,0.1875,,0.84,HT29,10,24,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,PFI-1,other,0.03243,0.1875,,0.84,HT29,10,24,CMap reversal of the target-gene high/low conjunctival signature
+TLR1,torin-2,other,0.03243,0.1875,,0.84,MCF7,3.33,24,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,torin-2,other,0.03243,0.1875,,0.84,MCF7,3.33,24,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,torin-2,other,0.03243,0.1875,,0.84,MCF7,3.33,24,CMap reversal of the target-gene high/low conjunctival signature
+TLR1,withaferin-a,other,0.03243,0.1875,,0.84,MCF7,1.11,24,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,withaferin-a,other,0.03243,0.1875,,0.84,MCF7,1.11,24,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,withaferin-a,other,0.03243,0.1875,,0.84,MCF7,1.11,24,CMap reversal of the target-gene high/low conjunctival signature
+TLR1,MK-2206,other,0.03243,0.1875,,0.84,BT20,1.11,24,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,MK-2206,other,0.03243,0.1875,,0.84,BT20,1.11,24,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,MK-2206,other,0.03243,0.1875,,0.84,BT20,1.11,24,CMap reversal of the target-gene high/low conjunctival signature
+TLR1,JW-7-24-1,other,0.03243,0.1875,,0.84,MCF10A,3.33,3,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,JW-7-24-1,other,0.03243,0.1875,,0.84,MCF10A,3.33,3,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,JW-7-24-1,other,0.03243,0.1875,,0.84,MCF10A,3.33,3,CMap reversal of the target-gene high/low conjunctival signature
+TLR1,torin-1,other,0.03243,0.1875,,0.84,SKBR3,10,24,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,torin-1,other,0.03243,0.1875,,0.84,SKBR3,10,24,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,torin-1,other,0.03243,0.1875,,0.84,SKBR3,10,24,CMap reversal of the target-gene high/low conjunctival signature
+TLR1,GDC-0068,other,0.03243,0.1875,,0.84,HT29,10,24,CMap reversal of the target-gene high/low conjunctival signature
+TXNDC12,GDC-0068,other,0.03243,0.1875,,0.84,HT29,10,24,CMap reversal of the target-gene high/low conjunctival signature
+PRKAB1,GDC-0068,other,0.03243,0.1875,,0.84,HT29,10,24,CMap reversal of the target-gene high/low conjunctival signature

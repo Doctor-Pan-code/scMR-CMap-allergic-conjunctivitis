@@ -1,0 +1,13 @@
+﻿signature,query_n,orientation,compounds_returned,top_score,n_glucocorticoid,best_glucocorticoid_rank,glucocorticoids_retrieved,top5
+dexamethasone_response,10,swapped,50,0.5263,13,1,betamethasone@1; triamcinolone@3; triamcinolone acetonide@4; dexamethasone@5; desoximetasone@22; clobetasol propionate@34,"BETAMETHASONE, Rho kinase inhibitor III [rockout], TRIAMCINOLONE, TRIAMCINOLONE ACETONIDE, Dexamethasone"
+dexamethasone_response,10,normal,50,0.5263,0,,,"phorbol-12-myristate-13-acetate (PMA), BX-795, C247, HY-10159, PF-477736"
+dexamethasone_response,15,swapped,50,0.4138,13,6,betamethasone@6; triamcinolone@7; dexamethasone@9; triamcinolone acetonide@15; desoximetasone@19; loteprednol@20,"-666, Rho kinase inhibitor III [rockout], -666, HG-6-64-01, Flurandrenolide"
+dexamethasone_response,15,normal,50,0.3103,0,,,"phorbol-12-myristate-13-acetate (PMA), cinobufagin, radicicol, MLN4924, QS 11"
+dexamethasone_response,25,swapped,50,0.2857,13,3,betamethasone@3; triamcinolone@4; dexamethasone@5; triamcinolone acetonide@16; dexamethasone@18; dexamethasone@19,"-666, -666, BETAMETHASONE, TRIAMCINOLONE, Dexamethasone"
+dexamethasone_response,25,normal,50,0.2653,0,,,"AZD-5438, alvocidib, CGP-60474, AT-7519, THIOTHIXENE"
+dexamethasone_response,35,swapped,50,0.2273,9,1,triamcinolone@1; betamethasone@3; clobetasol propionate@4; dexamethasone@5; desoximetasone@8; triamcinolone acetonide@12,"TRIAMCINOLONE, -666, BETAMETHASONE, CLOBETASOL PROPIONATE, dexamethasone"
+dexamethasone_response,35,normal,50,0.2273,0,,,"AZD-5438, THIOTHIXENE, CGP-60474, radicicol, AT-7519"
+conjunctival,10,reverse,50,0.3333,1,36,hydrocortisone@36,"BI-2536, KU 0060648 trihydrochloride, Ingenol 3, 20-dibenzoate, -666, S1057"
+conjunctival,15,reverse,50,0.25,1,34,hydrocortisone@34,"BI-2536, KU 0060648 trihydrochloride, Ingenol 3, 20-dibenzoate, -666, 5466528"
+conjunctival,25,reverse,50,0.1429,0,,,"KU 0060648 trihydrochloride, 5466528, PF 573228, PD-184352, BI-2536"
+conjunctival,35,reverse,50,0.1053,0,,,"Pepstatin A, PROSTAGLANDIN A1, KU 0060648 trihydrochloride, GF-109203X, -666"

@@ -1,0 +1,47 @@
+﻿compound,compound_class,n_instances,reverse_best_score,mimic_best_score,reversal_specificity,null_z,reversal_overlap_genes,mimic_overlap_genes,best_rank,best_cell_line,best_dose,best_time,direction
+BI-2536,other,2,0.25,,0.09493,2.47,4,0,1,MCF7,10,24,reversing
+KU 0060648 trihydrochloride,other,1,0.1875,,0.03243,0.84,3,0,2,A673,10.0,6.0,reversing
+"Ingenol 3, 20-dibenzoate",other,1,0.1875,,0.03243,0.84,3,0,3,MCF7,10.0,6.0,reversing
+5466528,other,1,0.1875,,0.03243,0.84,3,0,5,VCAP,10.0,24.0,reversing
+Fenbendazole,other,1,0.1875,,0.03243,0.84,3,0,8,PC3,10.0,24.0,reversing
+regorafenib,other,1,0.1875,,0.03243,0.84,3,0,9,MCF7,10,24,reversing
+GSK-2334470,other,1,0.1875,,0.03243,0.84,3,0,10,MCF7,3.33,24,reversing
+PD-0325901,other,1,0.1875,,0.03243,0.84,3,0,11,HEPG2,0.12,24,reversing
+PF 573228,other,1,0.1875,,0.03243,0.84,3,0,12,HEPG2,10,24,reversing
+PFI-1,other,1,0.1875,,0.03243,0.84,3,0,13,HT29,10,24,reversing
+torin-2,other,1,0.1875,,0.03243,0.84,3,0,14,MCF7,3.33,24,reversing
+withaferin-a,other,1,0.1875,,0.03243,0.84,3,0,15,MCF7,1.11,24,reversing
+MK-2206,other,2,0.1875,,0.03243,0.84,3,0,16,BT20,1.11,24,reversing
+JW-7-24-1,other,1,0.1875,,0.03243,0.84,3,0,18,MCF10A,3.33,3,reversing
+torin-1,other,1,0.1875,,0.03243,0.84,3,0,19,SKBR3,10,24,reversing
+GDC-0068,other,1,0.1875,,0.03243,0.84,3,0,21,HT29,10,24,reversing
+-666,other,5,0.1875,0.1875,0,0.84,3,3,4,SNGM,10.0,6.0,mimicking
+LFM-A12,other,1,0.125,,-0.03007,-0.78,2,0,22,HCC515,10.0,24.0,mimicking
+Syk Inhibitor,other,1,0.125,,-0.03007,-0.78,2,0,23,HCC515,10.0,24.0,mimicking
+Diphenyleneiodonium chloride,other,1,0.125,,-0.03007,-0.78,2,0,24,HCC515,10.0,24.0,mimicking
+wortmannin,other,1,0.125,,-0.03007,-0.78,2,0,25,PC3,10.0,6.0,mimicking
+PI 828,other,1,0.125,,-0.03007,-0.78,2,0,26,PC3,10.0,6.0,mimicking
+FIT,other,1,0.125,,-0.03007,-0.78,2,0,27,VCAP,10.0,24.0,mimicking
+PALDA,other,1,0.125,,-0.03007,-0.78,2,0,28,HCC515,10.0,24.0,mimicking
+SB 202190,other,1,0.125,,-0.03007,-0.78,2,0,29,HCC515,10.0,24.0,mimicking
+U-0126,other,1,0.125,,-0.03007,-0.78,2,0,30,VCAP,10.0,24.0,mimicking
+RS 67506 hydrochloride,other,1,0.125,,-0.03007,-0.78,2,0,31,VCAP,10.0,6.0,mimicking
+IVERMECTIN,other,1,0.125,,-0.03007,-0.78,2,0,32,HA1E,10.0,24.0,mimicking
+D 4476,other,1,0.125,,-0.03007,-0.78,2,0,33,HA1E,10.0,24.0,mimicking
+HYDROCORTISONE,glucocorticoid,1,0.125,,-0.03007,-0.78,2,0,34,HCC515,10.0,24.0,mimicking
+AY 9944,other,1,0.125,,-0.03007,-0.78,2,0,35,HCC515,10.0,24.0,mimicking
+TC 2559 difumarate,other,1,0.125,,-0.03007,-0.78,2,0,36,HCC515,10.0,24.0,mimicking
+NNC 26-9100,other,1,0.125,,-0.03007,-0.78,2,0,37,PC3,10.0,6.0,mimicking
+"LY-163,502",other,1,0.125,,-0.03007,-0.78,2,0,38,VCAP,10.0,24.0,mimicking
+FLUPROSTENOL,other,1,0.125,,-0.03007,-0.78,2,0,39,VCAP,10.0,24.0,mimicking
+PROCHLORPERAZINE EDISYLATE,other,1,0.125,,-0.03007,-0.78,2,0,40,HA1E,10.0,24.0,mimicking
+AMSACRINE,other,1,0.125,,-0.03007,-0.78,2,0,41,HA1E,10.0,24.0,mimicking
+NOCODAZOLE,other,1,0.125,,-0.03007,-0.78,2,0,42,HA1E,10.0,6.0,mimicking
+CYCLOHEXIMIDE,other,1,0.125,,-0.03007,-0.78,2,0,43,HA1E,10.0,6.0,mimicking
+"Methyl 2,5-dihydroxycinnamate",other,1,0.125,,-0.03007,-0.78,2,0,44,HA1E,10.0,6.0,mimicking
+AMLODIPINE BESYLATE,other,1,0.125,,-0.03007,-0.78,2,0,45,HCC515,10.0,24.0,mimicking
+ETOMIDATE,other,1,0.125,,-0.03007,-0.78,2,0,46,HCC515,10.0,24.0,mimicking
+Raf1 Kinase Inhibitor I,other,1,0.125,,-0.03007,-0.78,2,0,47,HCC515,10.0,24.0,mimicking
+PAROXETINE HYDROCHLORIDE,other,1,0.125,,-0.03007,-0.78,2,0,48,HCC515,10.0,24.0,mimicking
+PROTRYPTYLINE HYDROCHLORIDE,other,1,0.125,,-0.03007,-0.78,2,0,49,HCC515,10.0,24.0,mimicking
+Guanabenz acetate,other,1,0.125,,-0.03007,-0.78,2,0,50,HCC515,10.0,24.0,mimicking
