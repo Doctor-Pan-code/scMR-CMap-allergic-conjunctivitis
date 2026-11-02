@@ -4,7 +4,7 @@ Analysis code and result tables for the manuscript
 
 > **Causal target and reversal-compound screening in allergic conjunctivitis: a single-cell-informed Mendelian randomization and connectivity-map study**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23891048.svg)](https://doi.org/10.5281/zenodo.23891048)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23890289.svg)](https://doi.org/10.5281/zenodo.23890289)
 [![Licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](requirements.txt)
 
@@ -55,7 +55,7 @@ manuscript_src/                    normalised manuscript text, reference JSON, S
 docs/ANALYSIS_MAP.md               method section -> script -> table -> figure cross-reference
 docs/DATA_DICTIONARY.md            column-level description of every output table
 docs/gen_data_dictionary.py        regenerates DATA_DICTIONARY.md from tables/*.csv
-CITATION.cff                       machine-readable citation metadata (DOI 10.5281/zenodo.23891048)
+CITATION.cff                       machine-readable citation metadata (concept DOI 10.5281/zenodo.23890289)
 ```
 
 ---

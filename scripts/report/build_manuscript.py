@@ -361,7 +361,7 @@ DATA_AVAIL = ("本研究分析的全部数据均来自公开资源。单细胞�
 CODE_AVAIL = ("用于可成药基因组池构建、孟德尔随机化筛查、共定位与 SMR/HEIDI 分析、单细胞谱系内分层、"
               "连接图谱逆转查询与全表型扫描的自编代码托管于 "
               "https://github.com/Doctor-Pan-code/scMR-CMap-allergic-conjunctivitis，"
-              "并已归档至 Zenodo（https://doi.org/10.5281/zenodo.23890290）。分析阈值固化于 "
+              "并已归档至 Zenodo（https://doi.org/10.5281/zenodo.23890289）。分析阈值固化于 "
               "config/config.json。其余分析使用公开软件包完成，版本见方法部分。")
 
 ACK = ("感谢 FinnGen 研究团队、eQTLGen 联盟与 IEU OpenGWAS 项目公开共享汇总统计资源，"

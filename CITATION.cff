@@ -5,11 +5,14 @@ title: "scMR-CMap-allergic-conjunctivitis: reproducible code and result tables f
 version: 1.0.1
 date-released: 2026-11-02
 license: MIT
-doi: 10.5281/zenodo.23891048
+doi: 10.5281/zenodo.23890289
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.23890289
-    description: "Concept DOI (always resolves to the latest version)"
+    value: 10.5281/zenodo.23891048
+    description: "Version DOI for v1.0.1"
+  - type: doi
+    value: 10.5281/zenodo.23890290
+    description: "Version DOI for v1.0.0"
 url: "https://github.com/Doctor-Pan-code/scMR-CMap-allergic-conjunctivitis"
 repository-code: "https://github.com/Doctor-Pan-code/scMR-CMap-allergic-conjunctivitis"
 keywords:
